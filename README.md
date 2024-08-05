@@ -29,8 +29,7 @@ Die Anwendung ist in Laravel geschrieben. Clone das Repository oder installiere 
 
 1. Klone das Repository:
     ```sh
-    git clone https://github.com/dein-benutzername/getorganized.git
-    cd getorganized
+    git clone https://github.com/manuel1234567532/getorganized-maintenance-software.git
     ```
 
 2. Installiere die Abhängigkeiten:
@@ -40,13 +39,13 @@ Die Anwendung ist in Laravel geschrieben. Clone das Repository oder installiere 
     npm run dev
     ```
 
-3. Konfiguriere deine `.env` Datei:
+3. Konfiguriere die `.env` Datei:
     ```sh
     cp .env.example .env
     php artisan key:generate
     ```
 
-4. Migriere die Datenbank und fülle sie mit Seed-Daten:
+4. Migriere die Datenbank und fülle sie mit den Seed-Daten:
     ```sh
     php artisan migrate --seed
     ```
