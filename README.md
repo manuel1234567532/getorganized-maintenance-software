@@ -1,9 +1,61 @@
-GetOrganized ist ein Instandhaltungssoftware welche es dir ermöglicht Projekte und Ersatzteile zu tracken.
+# GetOrganized
 
-Die Anwendung ist in Laravell geschrieben.
-Clone das Repo oder Installiere es Manuell auf deinen Server.
-Führe "php artisan migrate --seed" aus um die Datenbank zu Migriegen.
+GetOrganized ist eine Instandhaltungssoftware, welche es dir ermöglicht, Projekte und Ersatzteile zu tracken.
 
-Logge dich mit "Administrator" und "12345678" ein und führe sämtliche Einstellungen wie zb. SMTP Settings unter "Admin" durch.
+## Beschreibung
 
-Youre ready to go!
+Die Anwendung ist in Laravel geschrieben. Clone das Repository oder installiere es manuell auf deinem Server.
+
+## Installation
+
+1. Klone das Repository:
+    ```sh
+    git clone https://github.com/dein-benutzername/getorganized.git
+    cd getorganized
+    ```
+
+2. Installiere die Abhängigkeiten:
+    ```sh
+    composer install
+    npm install
+    npm run dev
+    ```
+
+3. Konfiguriere deine `.env` Datei:
+    ```sh
+    cp .env.example .env
+    php artisan key:generate
+    ```
+
+4. Migriere die Datenbank und fülle sie mit Seed-Daten:
+    ```sh
+    php artisan migrate --seed
+    ```
+
+## Erster Login
+
+Logge dich mit den folgenden Anmeldeinformationen ein:
+- **Benutzername:** Administrator
+- **Passwort:** 12345678
+
+Führe sämtliche Einstellungen wie z.B. SMTP-Einstellungen unter "Admin" durch.
+
+## You're ready to go!
+
+Du kannst jetzt die Anwendung verwenden und deine Projekte sowie Ersatzteile effizient tracken.
+
+---
+
+Für weitere Informationen und detaillierte Anweisungen, siehe die offizielle [Laravel-Dokumentation](https://laravel.com/docs) und die [API-Dokumentation](https://laravel.com/api).
+
+Viel Spaß beim Organisieren!
+
+---
+
+Falls du Fragen oder Probleme hast, erstelle bitte ein Issue im Repository oder kontaktiere den Support.
+
+---
+
+**Lizenz**
+
+Dieses Projekt steht unter der MIT-Lizenz. Weitere Informationen findest du in der [LICENSE](LICENSE)-Datei.
