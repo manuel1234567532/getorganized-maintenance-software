@@ -6,6 +6,8 @@ GetOrganized ist eine Instandhaltungssoftware, welche es dir ermöglicht, Projek
 
 Die Anwendung ist in Laravel geschrieben. Clone das Repository oder installiere es manuell auf deinem Server.
 
+![Vorschau](https://i.imgur.com/BeRvhkd.jpg)
+
 ## Installation
 
 1. Klone das Repository:
