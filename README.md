@@ -52,10 +52,6 @@ Viel Spaß beim Organisieren!
 
 ---
 
-Falls du Fragen oder Probleme hast, erstelle bitte ein Issue im Repository oder kontaktiere den Support.
-
----
-
 **Lizenz**
 
-Dieses Projekt steht unter der MIT-Lizenz. Weitere Informationen findest du in der [LICENSE](LICENSE)-Datei.
+Dieses Projekt steht unter der MIT-Lizenz. Weitere Informationen findest du in der [LICENSE](License)-Datei.
