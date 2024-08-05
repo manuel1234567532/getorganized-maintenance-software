@@ -4,13 +4,15 @@ GetOrganized ist eine Instandhaltungssoftware, welche es dir ermöglicht, Projek
 
 ## Beschreibung
 
-Die Anwendung ist in Laravel geschrieben und bietet folgende Funktionen:
-- Login
-- 2FA Funktion
-- User Management
-- Arbeitsaufträge
-- Ersatzteile mit QR Codes
-- und vieles mehr.
+Die Anwendung wurde mit Laravel entwickelt und bietet eine Vielzahl an Funktionen:
+- **Login**: Sicheres und benutzerfreundliches Anmeldesystem.
+- **2FA Funktion**: Zwei-Faktor-Authentifizierung für zusätzliche Sicherheit.
+- **User Management mit Rollenzuweisung**: Verwalten Sie Benutzer und weisen Sie ihnen spezifische Rollen zu.
+- **Detaillierte Berechtigungssteuerung**: Steuern Sie die Berechtigungen für jede Rolle individuell auf der gesamten Webseite.
+- **Arbeitsaufträge mit automatischen Intervallen**: Verwalten Sie wiederkehrende Aufgaben effizient mit automatisierten Intervallen.
+- **Benachrichtigungen**: Erhalten Sie Benachrichtigungen, wenn z.B. ein Teammitglied einem Arbeitsauftrag hinzugefügt wird.
+- **Ersatzteilmanagement mit QR Codes und Status**: Verfolgen und verwalten Sie Ersatzteile mithilfe von QR-Codes und Statusupdates.
+- **und vieles mehr**: Entdecken Sie weitere nützliche Funktionen, die Ihre Instandhaltungsprozesse optimieren.
 
 ## Login
 ![Login](https://i.imgur.com/xCp1X8B.jpeg)
